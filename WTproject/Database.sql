@@ -10,7 +10,7 @@ insert into logged values('1','abc','student');
 insert into logged values('2','def','staff');
 insert into logged values('3','ghi','admin');
 
-select * from log ged;
+select * from logged;
 
 create table staff
 (
