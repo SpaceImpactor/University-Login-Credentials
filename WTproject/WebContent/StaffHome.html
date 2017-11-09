@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Staff Home</title>
+</head>
+<body style="background-color:#ff9966">
+<fieldset>
+<legend>Mark Attendence :</legend>
+<p align="right">You're logged in as STAFF </p>
+<a href="/WTproject/Login.html"><p align="right">Logout</p></a>
+<form method="get" action="StaffHandler">
+<center><table>
+<tr>
+<td>Class :</td><td><input type="text" name="class"></td></tr>
+<tr>
+<td>year :</td>
+<td>
+<select name="yr">
+<option style="display:none"></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select></td></tr>
+<tr>
+<td>
+period :</td>
+<td>
+<select name="period">
+<option style="display:none"></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+</select></td></tr>
+<tr>
+<td>
+Attendance : </td>
+<td>
+<input type="checkbox"  value="10" name="attendence">10
+<input type="checkbox" name="attendence" value="15">15
+<input type="checkbox" name="attendence" value="20">20
+<input type="checkbox" name="attendence" value="25">25
+<input type="checkbox" name="attendence" value="30">30
+</td></tr></center>
+</table>
+<br>
+<center><input type="submit" value="Submit"></form></center>
+</fieldset>
+</body>
+</html>
